@@ -1,0 +1,222 @@
+﻿body 
+{
+	background:#ccc;
+	font-size: 0.8em;
+	font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color:#096;
+}
+.required
+{
+    color:Red;
+}
+.tbheader
+{
+    border-bottom:1px solid #ccc;
+    padding-bottom:5px;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+.header
+{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	background:#0C9;/*#4b6c9e;*/
+	width: 100%;
+	overflow: visible;
+}
+
+.header h1
+{
+	font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.banner
+{
+	padding: 0px 12px;
+	margin: 12px 8px 8px 8px;
+	min-height: 186px;
+	max-width: 716px;
+	-webkit-transition: all 2s linear 2s;
+	-moz-transition: all 2s linear 2s;
+	-ms-transition: all 2s linear 2s;
+	-o-transition: all 2s linear 2s;
+	transition: all 2s linear 2s;
+}
+
+.banner2
+{
+	padding: 0px 4px;
+	margin: 12px 8px 8px 8px;
+	min-height: 186px;
+	max-width: 100%;
+	text-align: left;
+	font-size: 14px;
+	background:#CCC;
+	border:groove;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 100%;
+	text-align:left;
+}
+.main2
+{
+    padding: 0px 2px;
+    margin: 12px 8px 8px 8px;
+    min-height: 200px;
+	text-align:left;
+
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+    height:30px;
+    background-color: Black;
+    
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#000;/*#3a4f63;*/
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay
+{
+    font:"Brush Script Std";
+	font-size:34px;
+    display: block;
+    text-align: right;
+    padding: 10px;
+    color:#3F0;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+.banner:active {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
